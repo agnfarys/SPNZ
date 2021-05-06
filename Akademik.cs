@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WpfApp1
+namespace SPNZ
 {
 	public class Akademik
 	{
@@ -10,27 +10,46 @@ namespace WpfApp1
         }
 		int Gry()
         {
+			Student.ZmianaEnergia(-20);
+			Student.ZmianaCheci(30);
+			Student.ZmianaGodzina(2);
 			return 0;
         }
-		int Discord()
+		void Discord()
         {
-			return 0;
+			Student.ZmianaEnergia(-10);
+            Student.ZmianaCheci(10);
+			Student.ZmianaWspolpraca(5);
+            Student.ZmianaGodzina(2);
         }
-		int Etrapez()
+		void Etrapez()
         {
-			return 0;
+			Student.ZmianaEnergia(-20);
+			Student.ZmianaCheci(-15);
+			Student.ZmianaGodzina(2);
+			Student.ZmianaWiedza(25)
+			
         }
-		int Zajecia()
+		void Zajecia()
         {
-			return 0;
+			Student.ZmianaEnergia(-30);
+			Student.ZmianaCheci(-20);
+			Student.ZmianaGodzina(3);
+			Student.ZmianaWiedza(40)
+			
         }
-		int Grupka()
+		void Grupka()
         {
-			return 0;
+			if (Student.Wspolpraca => 100)
+			{ 
+				Student.ZmianaWiedza(150);
+				Student.ZmianaCheci(50);
+			}
         }
-		int Spij()
+
+		void Spij()
         {
-			return 0;
+			
         }
 	}
 }
