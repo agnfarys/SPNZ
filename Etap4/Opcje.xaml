@@ -1,0 +1,13 @@
+﻿<Window x:Class="SPNZ.Opcje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPNZ"
+        mc:Ignorable="d"
+         Title="Opcje" Height="500" Width="400" ResizeMode="NoResize" SizeToContent="Manual" WindowStartupLocation="CenterScreen" Icon="/beer-icon.png" WindowState="Normal" WindowStyle="None">
+    <Grid>
+        <Button Content="Powrót" HorizontalAlignment="Center" Margin="0,409,0,0" VerticalAlignment="Top" Click="Button_Click" Height="39" Width="84"/>
+
+    </Grid>
+</Window>
