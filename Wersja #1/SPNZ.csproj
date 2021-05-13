@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="beer-icon.png" />
+    <None Remove="piorun.png" />
+    <None Remove="spnzdraft.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="beer-icon.png" />
+    <Resource Include="piorun.png" />
+    <Resource Include="spnzdraft.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Media\" />
+  </ItemGroup>
+
+</Project>
