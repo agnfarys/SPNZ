@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Media\**" />
+    <EmbeddedResource Remove="Media\**" />
+    <None Remove="Media\**" />
+    <Page Remove="Media\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="beer-icon.png" />
+    <None Remove="checker-flags-297188_960_720.png" />
+    <None Remove="DISCORD.png" />
+    <None Remove="ETRAPEZ.png" />
+    <None Remove="flagi.png" />
+    <None Remove="KALENDARZ2.png" />
+    <None Remove="Lozko2.png" />
+    <None Remove="neon.gif" />
+    <None Remove="neoncosierusza.gif" />
+    <None Remove="neoncosierusza1.gif" />
+    <None Remove="nowa gra.png" />
+    <None Remove="Okno2.png" />
+    <None Remove="opcje.png" />
+    <None Remove="piorun.png" />
+    <None Remove="PokojTlo2.jpg" />
+    <None Remove="spnz2.jpg" />
+    <None Remove="spnz3.jpg" />
+    <None Remove="spnzdraft.jpg" />
+    <None Remove="STEAM.png" />
+    <None Remove="TEAMS.png" />
+    <None Remove="wczytaj.png" />
+    <None Remove="wyjdz.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+    <PackageReference Include="XamlAnimatedGif" Version="1.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DISCORD.png" />
+    <Resource Include="ETRAPEZ.png" />
+    <Resource Include="flagi.png" />
+    <Resource Include="KALENDARZ2.png" />
+    <Resource Include="Lozko2.png" />
+    <Resource Include="neon.gif" />
+    <Resource Include="neoncosierusza.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="neoncosierusza1.gif" />
+    <Resource Include="nowa gra.png" />
+    <Resource Include="Okno2.png" />
+    <Resource Include="opcje.png" />
+    <Resource Include="piorun.png" />
+    <Resource Include="PokojTlo2.jpg" />
+    <Resource Include="spnz3.jpg" />
+    <Resource Include="STEAM.png" />
+    <Resource Include="TEAMS.png" />
+    <Resource Include="wczytaj.png" />
+    <Resource Include="wyjdz.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
