@@ -1,0 +1,51 @@
+﻿<Window x:Class="SPNZ.EGZAMIN"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPNZ"
+        mc:Ignorable="d"
+       Title="EGZAMIN" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Height="750" Width="500">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/XD2.jpg"/>
+        </Grid.Background>
+        <RadioButton GroupName="pyt1" Content="Oczywiście, że tak"  HorizontalAlignment="Left" Margin="60,120,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" Checked="RadioButton_Checked" />
+        <RadioButton GroupName="pyt1"  Content="Nie" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" />
+        <RadioButton GroupName="pyt1" Content="Po co to komu?" HorizontalAlignment="Right" Margin="60,120,60,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,70,0,0" Text="Pytanie 1" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,95,0,0" Text="Czy na laboratoria trzeba mieć fartuch?" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,150,0,0" Text="Pytanie 2" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,175,0,0" Text="Co to kindersztuba?" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <RadioButton GroupName="pyt2" Content="Opiekunka" HorizontalAlignment="Left" Margin="60,200,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"  />
+        <RadioButton GroupName="pyt2" Content="Batonik" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt2" Content="Dobre wychowanie" HorizontalAlignment="Right" Margin="0,200,35,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold" RenderTransformOrigin="1.007,0.502" Checked="RadioButton_Checked_1"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,230,0,0" Text="Pytanie 3" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,255,0,0" Text="Błąd systematyczny inaczej jest nazywany: " TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <RadioButton GroupName="pyt3" Content="B.Względny " HorizontalAlignment="Left" Margin="60,280,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" />
+        <RadioButton GroupName="pyt3" Content="B.Bezwzględny" HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" />
+        <RadioButton GroupName="pyt3" Content="B.Metody pomiaru " HorizontalAlignment="Right" Margin="0,280,27,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold" Checked="RadioButton_Checked_2"/>
+        <RadioButton GroupName="pyt4" Content="Słowo kluczowe&#xD;&#xA;ozn. instrukcję wyboru"  HorizontalAlignment="Left" Margin="31,360,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" Height="50" Checked="RadioButton_Checked_3"/>
+        <RadioButton GroupName="pyt4"  Content="Konsola" HorizontalAlignment="Center" Margin="0,360,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt4" Content="Przełącznik" HorizontalAlignment="Right" Margin="60,360,60,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,310,0,0" Text="Pytanie 4" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"><Run Language="pl-pl" Text="Switch to"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,390,0,0" Text="Pytanie 5" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,415,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"><Run Language="pl-pl" Text="Kiedy JSOS działa"/></TextBlock>
+        <RadioButton GroupName="pyt5" Content="Czasem" HorizontalAlignment="Left" Margin="60,440,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt5" Content="Nigdy" HorizontalAlignment="Center" Margin="0,440,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" />
+        <RadioButton GroupName="pyt5" Content="Komunikat 421" HorizontalAlignment="Right" Margin="0,440,35,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold" Checked="RadioButton_Checked_6"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,470,0,0" Text="Pytanie 6" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,495,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"><Run Language="pl-pl" Text="Jak magik to:"/></TextBlock>
+        <RadioButton GroupName="pyt6" Content="9 piętro" HorizontalAlignment="Left" Margin="60,520,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" Checked="RadioButton_Checked_7"/>
+        <RadioButton GroupName="pyt6" Content="8 piętro" HorizontalAlignment="Center" Margin="0,520,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt6" Content="7 piętro" HorizontalAlignment="Right" Margin="0,520,64,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold"/>
+        <Button Style="{StaticResource MyButton}" HorizontalAlignment="Center" Margin="0,604,0,0" VerticalAlignment="Top" Height="82" Width="164" FontWeight="Bold" BorderThickness="3,3,3,3" Click="Button_Click" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="/flagi.png"/>
+            </Button.Background>
+
+        </Button>
+
+    </Grid>
+</Window>
