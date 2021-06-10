@@ -1,0 +1,44 @@
+﻿<Window x:Class="SPNZ.Kolokwium1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPNZ"
+        mc:Ignorable="d"
+        Title="Kolokwium" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Height="650" Width="500">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/XD.png"/>
+        </Grid.Background>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,69,0,0" Text="Pytanie 1" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,110,0,0" Text="Kiedy prof. R. sprawdzi magnesy?" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+
+        <RadioButton GroupName="pyt1" Content="Nigdy" HorizontalAlignment="Left" Margin="60,140,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" Checked="RadioButton_Checked" />
+        <RadioButton GroupName="pyt1"  Content="Jutro" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt1" Content="Wczoraj" HorizontalAlignment="Right" Margin="60,140,60,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold"/>
+        
+        
+        <TextBlock HorizontalAlignment="Center" Margin="0,199,0,0" Text="Pytanie 2" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,240,0,0" Text="Student:" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+       
+        <RadioButton GroupName="pyt2" Content="Wino" HorizontalAlignment="Left" Margin="60,270,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt2" Content="Woda" HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt2" Content="Piwo" HorizontalAlignment="Right" Margin="0,270,60,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold" Checked="RadioButton_Checked_1" />
+       
+        <TextBlock HorizontalAlignment="Center" Margin="0,329,0,0" Text="Pytanie 3" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,370,0,0" Text="Nie..." TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+       
+        <RadioButton GroupName="pyt3" Content="W4rto" HorizontalAlignment="Left" Margin="60,400,0,0" VerticalAlignment="Top" FontSize="14" Background="White" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black" Checked="RadioButton_Checked_2" />
+        <RadioButton GroupName="pyt3" Content="Warto" HorizontalAlignment="Center" Margin="0,400,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="Black"/>
+        <RadioButton GroupName="pyt3" Content="Wart0" HorizontalAlignment="Right" Margin="0,400,60,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" BorderThickness="3,3,3,3" BorderBrush="#FF020202" SnapsToDevicePixels="True" FontWeight="Bold"/>
+
+        <Button Style="{StaticResource MyButton}" HorizontalAlignment="Center" Margin="0,500,0,0" VerticalAlignment="Top" Height="72" Width="156" FontWeight="Bold" BorderThickness="3,3,3,3" Click="Button_Click" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/flagi.png"/>
+            </Button.Background>
+
+        </Button>
+
+    </Grid>
+</Window>
