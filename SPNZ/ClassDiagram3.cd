@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SPNZ.Akademik">
+    <Position X="8" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAABAAAAAAgAAAAAAAAAADAAAAAAACAAAAA=</HashCode>
+      <FileName>Akademik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SPNZ.App" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SPNZ.EGZAMIN" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAEAgAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EGZAMIN.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Event">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAABAAAgAAAQIEQAAABAQAAAAACA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SPNZ.Instrukcja" BaseTypeListCollapsed="true">
+    <Position X="12" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instrukcja.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Kolokwium1" BaseTypeListCollapsed="true">
+    <Position X="8" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAEAgAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kolokwium1.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Kolokwium2" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAABAAAEAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kolokwium2.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Kolokwium3" BaseTypeListCollapsed="true">
+    <Position X="12" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kolokwium3.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="12" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABQAAAAAAAAAEEAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.OpcjeGra" BaseTypeListCollapsed="true">
+    <Position X="8" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAEEAAACAAAAAAAACAAAAAA=</HashCode>
+      <FileName>OpcjeGra.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Pokoj" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAACAAAAABAAAAAAgAAAAAAAAAICAAIBAAAAAAAAA=</HashCode>
+      <FileName>Pokoj.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Student">
+    <Position X="6" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gCQgAIQAABAAAAISAAACAQbACAACACIBASAxAQAAIQQ=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SPNZ.Wyspa" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAABAAAAAAQAAAAAAABAAAAAAACA=</HashCode>
+      <FileName>Wyspa.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SPNZ.Properties.Resources" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEIAAAAEgAAAAEEYgJEggIISAgABiABggAACAAEII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
