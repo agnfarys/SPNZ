@@ -1,4 +1,4 @@
-# Symulator Przetrwania Na Zdalnych (Remote Survival Simulator)
+# 👾 Symulator Przetrwania Na Zdalnych (Remote Survival Simulator) 🍻
 Game simulating life of a college student in the time of pandemics.
 
 <div align="center">
