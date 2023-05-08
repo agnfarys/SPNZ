@@ -3,7 +3,7 @@ Game simulating life of a college student in the time of pandemics.
 
 <div align="center">
   <kbd>
-    <img src="menu.png" />
+    <img src="Pictures/menu.png" />
   </kbd>
 </div>
 
@@ -16,11 +16,11 @@ A clicker game simulating the life of a student in the era of a pandemic. The WP
 
 <div align="center">
   <kbd>
-    <img src="main.png" />
+    <img src="Pictures/main.png" />
   </kbd>
 </div>
 <div align="center">
   <kbd>
-    <img src="wyspa.png" />
+    <img src="Pictures/wyspa.png" />
   </kbd>
 </div>
